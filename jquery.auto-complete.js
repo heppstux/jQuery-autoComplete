@@ -70,8 +70,9 @@
                 $(this).addClass('selected');
             });
 
-            that.sc.on('mousedown.autocomplete, touchstart', '.autocomplete-suggestion', function (){
+            that.sc.on('mousedown.autocomplete, click', '.autocomplete-suggestion', function (){
                 var v = $(this).data('val');
+                $(this).addClass('selected');
                 that.val(v);
                 o.onSelect(v);
                 setTimeout(function(){ that.focus(); }, 10);
