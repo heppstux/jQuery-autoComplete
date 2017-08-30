@@ -1,3 +1,5 @@
+import jQuery from 'jquery'
+
 /*
 	jQuery autoComplete v1.0.5
     Copyright (c) 2014 Simon Steinberger / Pixabay
