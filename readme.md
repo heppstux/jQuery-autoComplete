@@ -6,12 +6,12 @@ An extremely lightweight completion suggester plugin for jQuery.
 Compatible with jQuery 1.7.0+ in Firefox, Safari, Chrome, Opera, Internet Explorer 7+. No dependencies except the jQuery library.
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
 
-This plugin was developed by and for [Pixabay.com](http://pixabay.com/) - an international repository for sharing free public domain images.
+This plugin was developed by and for [Pixabay.com](https://pixabay.com/) - an international repository for sharing free public domain images.
 We have implemented this plugin in production and we share this piece of software - in the spirit of Pixabay - freely with others.
 
 ## Demo and Documentation
 
-http://goodies.pixabay.com/jquery/auto-complete/demo.html
+https://goodies.pixabay.com/jquery/auto-complete/demo.html
 
 ## Features
 
@@ -22,9 +22,13 @@ http://goodies.pixabay.com/jquery/auto-complete/demo.html
 
 ## Changelog
 
+### Version 1.0.6 - 2015/04/22
+
+* Fixed #7: Firing onSelect callback on enter and passing event and selected suggestion item as additional arguments.
+
 ### Version 1.0.5 - 2014/11/26
 
-* Fixed renderItem method (https://github.com/Pixabay/jQuery-autoComplete/pull/4)
+* Fixed #4: renderItem bugfix
 
 ### Version 1.0.4 - 2014/11/26
 
